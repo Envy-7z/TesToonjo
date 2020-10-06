@@ -10,5 +10,9 @@
     <string name="preference_file_key">preference_file_key</string>
     <string name="error_toast">Ada yang salah itu ...</string>
     <string name="success_toast">Success</string>
+    <string name="email">Email</string>
+    <string name="gender">Gender</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
 
 </resources>

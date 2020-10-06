@@ -57,7 +57,7 @@ class LoginActivity : BaseActivity(), LoginContract.LoginView {
         val sharedPref = mContext.getSharedPreferences(
             getString(R.string.preference_file_key), Context.MODE_PRIVATE)
         val edt = preferences.edit()
-        edt.putString("id", pList.token)
+        edt.putString("token", pList.token)
         edt.apply()
         edt.commit()
 
