@@ -1,4 +1,4 @@
-package com.tif.testoonjo.activity.login.main
+package com.tif.testoonjo.activity.main
 
 import android.view.LayoutInflater
 import android.view.View

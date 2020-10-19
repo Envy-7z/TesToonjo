@@ -71,7 +71,10 @@ dependencies {
     compileOnly 'com.google.android.wearable:wearable:2.5.0'
     kapt 'com.github.bumptech.glide:compiler:4.7.1'
 
-
+    //room local
+    implementation "androidx.room:room-runtime:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+    
     implementation 'com.airbnb.android:lottie:3.0.0-beta2'
 
 
