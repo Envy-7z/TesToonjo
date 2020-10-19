@@ -5,7 +5,7 @@ import android.content.Intent
 import android.preference.PreferenceManager
 import android.widget.Toast
 import com.tif.testoonjo.BuildConfig
-import com.tif.testoonjo.activity.login.main.MainActivity
+import com.tif.testoonjo.activity.main.MainActivity
 import com.tif.testoonjo.R
 import com.tif.testoonjo.base.BaseActivity
 import com.tif.testoonjo.model.LoginResponse
@@ -62,7 +62,7 @@ class LoginActivity : BaseActivity(), LoginContract.LoginView {
         edt.commit()
 
         val myIntent = Intent(this, MainActivity::class.java)
-        startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+        startActivity(Intent(this@LoginActivity, com.tif.testoonjo.MainActivity::class.java))
         finish()
     }
 

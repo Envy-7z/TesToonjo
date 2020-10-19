@@ -74,8 +74,24 @@ dependencies {
     //room local
     implementation "androidx.room:room-runtime:$roomVersion"
     kapt "androidx.room:room-compiler:$roomVersion"
-    
+
     implementation 'com.airbnb.android:lottie:3.0.0-beta2'
+
+
+
+    implementation 'androidx.paging:paging-runtime:2.1.2'
+    implementation "android.arch.lifecycle:extensions:1.1.1"
+    implementation 'pub.devrel:easypermissions:1.2.0'
+    implementation 'com.vincent.filepicker:MultiTypeFilePicker:1.0.7'
+
+
+//di
+    implementation "com.google.dagger:dagger:$dagger2Version"
+    kapt "com.google.dagger:dagger-compiler:$dagger2Version"
+    implementation 'androidx.room:room-rxjava2:2.2.5'
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.13'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
 
 
 

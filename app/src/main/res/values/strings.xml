@@ -14,5 +14,9 @@
     <string name="gender">Gender</string>
     <string name="last_name">Last Name</string>
     <string name="first_name">First Name</string>
+    <string-array name="spinnerItems">
+        <item>MALE</item>
+        <item>FEMALE</item>
 
+    </string-array>
 </resources>
